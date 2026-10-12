@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.A.R.V.I.S. - HUD Interface</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #050b14;
+            color: #00ffff;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .hud-container {
+            border: 2px solid #00ffff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+            text-align: center;
+            background: rgba(0, 10, 20, 0.8);
+        }
+        h1 {
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        p {
+            color: #88ccff;
+        }
+        .status {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #00ff66;
+            text-shadow: 0 0 8px #00ff66;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hud-container">
+        <h1>J.A.R.V.I.S.</h1>
+        <p>SISTEMA DE ASISTENCIA VIRTUAL</p>
+        <div class="status">● ESTADO: ONLINE / NÚCLEO ACTIVO</div>
+    </div>
+
+</body>
+</html>
